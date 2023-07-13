@@ -18,5 +18,16 @@ export const controllInputStyles = StyleSheet.create({
     left: 10,
     bottom: -15,
     fontSize: 12,
+  },
+  togglePwd: {
+    position: "absolute",
+    top: 0,
+    bottom: 0,
+    right: 16,
+    justifyContent: "center",
+  },
+  togglePwdText: {
+    color: "#1B4371",
+    fontSize: 16,
   }
 });

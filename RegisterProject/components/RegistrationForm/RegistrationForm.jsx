@@ -1,4 +1,5 @@
 import {
+  Image,
   Keyboard,
   Text,
   TouchableOpacity,
@@ -35,7 +36,12 @@ export const RegistrationForm = () => {
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <View style={registrFormStyles.formWrapper}>
-        <TouchableOpacity onPress={handleGetPhoto} style={registrFormStyles.photo}></TouchableOpacity>
+        <TouchableOpacity onPress={handleGetPhoto} style={registrFormStyles.photo}>
+          <Image
+            style={registrFormStyles.add}
+            source={require("../../images/add.png")}
+          />
+        </TouchableOpacity>
         <Title title="Реєстрація" />
         <View style={registrFormStyles.formBody}>
           <ControllInput

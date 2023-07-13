@@ -11,6 +11,11 @@ export const registrFormStyles = StyleSheet.create({
     top: -60,
     transform: [{ translateX: -0.5 * 120 }],
   },
+  add: {
+    position: "absolute",
+    right: -10,
+    bottom: 10,
+  },
   formWrapper: {
     paddingTop: 92,
   },
